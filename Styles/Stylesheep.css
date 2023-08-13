@@ -1,0 +1,57 @@
+
+:root{
+    --Cardo: 'Cardo', serif;
+    --Poppins: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.principal{
+    min-width: 375px;
+    min-height: 667px;
+    background-image: url(../Images/tela\ green.jpg);
+    background-size: cover;
+    border-top: 1px solid; 
+}
+.navegacion{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    
+}
+.logo_principal{
+    width: 150px;
+}
+.buscador{
+    height: 20px;
+    border-radius: 12px;
+    border: solid 1px white;
+    padding-left: 5px;
+    align-self: center;
+    display: none;
+}
+.boton{
+ align-self: center;
+ color: white;
+ text-decoration: none;
+ font-family: var(--Poppins);
+ border: 1px solid white;
+ border-radius: 10px;
+ padding: 1px 5px;
+ margin-left: auto;
+}
+.boton_display{
+    display: none;
+}
+.container{
+width: 80%;
+margin: 50px auto;
+}
+.mensaje{
+    color: white;
+    font-size: 25px;
+    font-family: var(--Poppins);
+}
