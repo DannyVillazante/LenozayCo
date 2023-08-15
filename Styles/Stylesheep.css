@@ -10,10 +10,11 @@
 }
 .principal{
     min-width: 375px;
-    min-height: 667px;
-    background-image: url(../Images/tela\ green.jpg);
-    background-size: cover;
-    border-top: 1px solid; 
+    height: 100vh;
+    /* background-image: url(../Images/tela\ green.jpg);
+    background-size: cover; */
+    border-top: 1px solid;
+    background-color: rgb(29, 48, 90); 
 }
 .navegacion{
     width: 90%;
@@ -25,33 +26,63 @@
 .logo_principal{
     width: 150px;
 }
-.buscador{
-    height: 20px;
-    border-radius: 12px;
-    border: solid 1px white;
-    padding-left: 5px;
-    align-self: center;
-    display: none;
-}
 .boton{
- align-self: center;
- color: white;
- text-decoration: none;
- font-family: var(--Poppins);
- border: 1px solid white;
- border-radius: 10px;
- padding: 1px 5px;
- margin-left: auto;
-}
-.boton_display{
-    display: none;
+    align-self: center;
+    color: rgb(195, 166, 118);
+    text-decoration: none;
+    font-family: var(--Poppins);
+    border: 1px solid rgb(195, 166, 118);
+    border-radius: 10px;
+    padding: 1px 5px;
+    margin-left: auto;
 }
 .container{
-width: 80%;
-margin: 50px auto;
+    width: 80%;
+    margin: 50px auto;
 }
 .mensaje{
-    color: white;
+    color: rgb(195, 166, 118);
     font-size: 25px;
     font-family: var(--Poppins);
+}
+.list_container{
+    width: 250px;
+    margin: 0px auto;
+}
+.list_boton{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.list_boton_access{
+    display: block;
+    margin-top: 20px;
+    justify-content: center;
+}
+.info{
+    background-color: rgb(195, 166, 118);
+    color: rgb(29, 49, 90);
+    height: 320px;
+    display: flex;
+    min-width: 375px;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: var(--Poppins);
+}
+.pharagrap{
+    font-family: var(--Cardo);
+    font-size: 20px;
+}
+.container_information{
+    width: 90%;
+    margin: auto;
+}
+.picture{
+    min-width: 375px;
+    display: none;
 }

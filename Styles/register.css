@@ -1,0 +1,50 @@
+:root{
+    --Cardo: 'Cardo', serif;
+    --Poppins: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(29, 48, 90);
+    min-width: 375px;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.logotipo{
+    width: 250px;
+    height: 60px;
+}
+.title_principal{
+    color: white;
+    font-family: var(--Cardo);
+    margin: auto;
+}
+.principal{
+    width: 250px;
+    margin-bottom: 15px;
+}
+.form{
+    border: 2px solid rgb(195, 166, 118);
+    border-radius: 15px;
+    background-color: rgba(195, 166, 118, 0.309);
+    width: 250px;
+    padding: 10px;
+}
+.title{
+    color: white;
+    font-size: 15px;
+    font-family: var(--Poppins);
+}
+.button{
+    border-radius: 10px;
+    border: 2px solid rgb(195, 166, 118);
+    background-color: white;
+    height: 30px;
+    width: 100%;
+}
